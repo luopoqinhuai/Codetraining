@@ -41,6 +41,6 @@ public class QuickSort {
 		}
 		
 		
-		Assert.assertEquals("¿ìËÙÅÅĞò",flag,true );          
+		Assert.assertEquals("å¿«é€Ÿæ’åº",flag,true );          
 	}
 }

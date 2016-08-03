@@ -40,14 +40,14 @@ public class HeapSort {
 			adjustHeap(data,sizeOfHeap,largest);
 		}
 	}
-	//³õÊ¼»¯¶Ñ
+	//åˆå§‹åŒ–å †
 	private static void buildMaxHeap(int[] data){
 		int size=data.length;
 		for(int i=size/2;i>=0;i--){
 			adjustHeap(data,size,i);
 		}
 	}
-	//ÍêÈ«¶ÑÅÅĞò
+	//å †æ’åº
 	private static void sortHeap(int[] data){
 		for(int i=data.length-1;i>=0;i--){
 			int tmp=data[0];
@@ -70,7 +70,7 @@ public class HeapSort {
 				break;
 			}
 		}
-		Assert.assertEquals("¿ìËÙÅÅĞò",flag,true );          
+		Assert.assertEquals("å †æ’åº",flag,true );          
 	}
 	
 	
@@ -86,7 +86,7 @@ public class HeapSort {
 				break;
 			}
 		}
-		Assert.assertEquals("¿ìËÙÅÅĞò",flag,true );          
+		Assert.assertEquals("å–å¾—topK",flag,true );          
 	}
 
 }
